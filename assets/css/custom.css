@@ -47,6 +47,10 @@
   background-color: #ffffff !important;
 }
 
+.navbar_div {
+  background-color: #185397;
+}
+
 hr.blue {
   border-top: 1px solid #185397;
 }
