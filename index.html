@@ -1,65 +1,151 @@
----
-layout: default
-title: Owen Bannister
----
-<!-- Dont judge the inline styles they will be moved -->
-<div class="jumbotron" style="overflow: auto;border:1px solid;border-radius:25px;font-family: 'Roboto', sans-serif;
-">
-<div class="col-xs-4">
-	<h1>Owen Bannister</h1>
-	<hr style="border-top:1px solid #000" />
-	<a href="https://github.com/OwenBannister">GitHub</a>
-	<br />
-	<a href="http://www.linkedin.com/pub/owen-bannister/35/697/b47">LinkedIn</a>
-</div>
-<div class="col-xs-6 col-md-3 thumbnail pull-right">
-	<img src="assets/images/owen.png" alt="Owen">
-</div>
-</div>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Owen Bannister</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.dropotron.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-panels.min.js"></script>
+	<script src="js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel-noscript.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-desktop.css" />
+		<link rel="stylesheet" href="css/style-noscript.css" />
+	</noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+</head>
+<body class="homepage">
 
-<div class="col-xs-6 " style="overflow: auto;">
-	<div class="well" style="overflow: auto;border:1px solid;border-radius:25px;font-family: 'Roboto', sans-serif;margin-left:-15px">
-		<h2>Current Position</h2>
-		<hr style="border-top:1px solid #000" />
-		<div class="col-xs-3 thumbnail">
-			<img src="assets/images/datacom.jpg" alt="Owen">
+	<!-- Header -->
+	<div id="header">
+
+		<!-- Inner -->
+		<div class="inner" style="padding-top:0px; margin-top:-40px">
+			<header>
+				<h1><a href="#" id="logo">Owen Bannister</a></h1>
+						<p style="text-align:center">o.j.bannister@gmail.com</p>
+				<hr />
+				<span class="byline">	
+					<img src="images/owen.png" alt="Owen">
+				</span>
+				<section class="contact">
+
+					<br>
+
+					<ul class="icons"  style ="background-color: #2b252c">
+						<li><a href="http://www.linkedin.com/pub/owen-bannister/35/697/b47" class="fa fa-linkedin solo"><span>Linkedin</span></a></li>
+						<li><a href="https://github.com/OwenBannister" class="fa fa-github solo"><span>Github</span></a></li>
+					</ul>
+				</section>
+
+			</header>
+			<footer>
+				<a href="#banner" class="button circled scrolly" style="background-color: #2b252c">Projects</a>
+			</footer>
+			<br>
 		</div>
-		<h4>Ruby on Rails Developer at Datacom Wellington</h4>
-		<div class="col-xs-9 pull-right">
-			<hr style="border-top:1px solid grey" />
-			<p>
+	</div>
+
+	<!-- Banner -->
+	<div id="banner" style="padding: 20px">
+		<h2>My Projects</h2>
+	</div>
+
+	<!-- Carousel -->
+	<div class="carousel" style="height: 730px">
+		<div class="reel">
+
+			<article style="vertical-align:top">
+				<a href="http://liveforfitness.herokuapp.com" class="image featured"><img src="images/liveforfitness.png" alt="" style="height:50%"/></a>
+				<header>
+					<h3><a href="http://liveforfitness.herokuapp.com">FitnessTracker</a> - RoR app</h3>
+				</header>
+				<p style="height:259px"></p>							
+			</article>
+
+			<article style="vertical-align:top">
+				<a href="https://bank-grapher.herokuapp.com" class="image featured"><img src="images/bankgrapher.jpg" alt="" style="height:50%"/></a>
+				<header>
+					<h3><a href="https://bank-grapher.herokuapp.com">BankGrapher </a> - RoR app</h3>
+				</header>
+				<p style="height:259px">			I got sick of having to use spreadsheets to keep track of my finances so I decided to create a usefull webapp that I could upload my bank statements to and automatically have them graphed and stored so that they could be easily analysed.</p>							
+			</article>
+
+			<article style="vertical-align:top">
+				<a class="image featured"><img src="images/comingsoon.jpg" alt="" style="height:50%"/></a>
+				<header>
+					<h3>Rekt - Unity3D game</h3>
+				</header>
+				<p style="height:259px">	What happens when a bunch of developers and designers finally finish their degree and get together...they try to make an awesome game!. At least thats the plan here, so watch this space.</p>	
+				<p>		
+			</article>
+
+		</div>			
+
+	</div>
+	<div style="text-align:center">
+		<a href="#work" class="button circled scrolly" style="background-color: #2b252c">Current Work</a>
+	</div>
+	<br>
+	<br>
+	<!-- Main -->
+	<div id="work" class="wrapper style2">
+
+		<article id="main" class="container special">
+			<header>
+				<h2><a href="#">Current Position</a></h2>
+				<span class="byline">
+					Ruby on Rails Developer at Datacom Wellington
+			<p style="text-align:center;">
 				Working in a faced paced Agile team designing and developing solutions for clients in Ruby on Rails and other exciting web tech. 
 			</p>
-		</div>
+					<img src="images/datacom.jpg" alt=""  class="image featured" style="width:30%; display: block;   margin-left: auto;
+					margin-right: auto;"/>
+				</span>
+			</header>
+			<footer>
+				<a href="#header" class="button circled scrolly" style="background-color: #2b252c">Back to top</a>
+			</footer>
+		</article>
 
 	</div>
-</div>
-<div class="col-xs-6 pull-right " style="overflow: auto; ">
-	<div class="well" style="overflow: auto;border:1px solid;border-radius:25px;font-family: 'Roboto', sans-serif;margin-right:-15px">
-		<h2>Personal Projects</h2>
-		<hr style="border-top:1px solid #000" />
+<!-- Footer -->
+<div id="footer" style="padding-top:0px">
+	<div class="container">
+		<br>
+		<div class="row">
+			<div class="12u">
 
-		<h4><a href="http://liveforfitness.herokuapp.com">FitnessTracker</a> - RoR app</h4> 
-		<div class="col-xs-12 thumbnail">
-			<img src="assets/images/liveforfitness.png" alt="Owen">
-		</div>
+				<!-- Contact -->
+				<section class="contact">
+					<header>
+						<h3>Look me up</h3>
+					</header>
+					<ul class="icons">
+										<li><a href="http://www.linkedin.com/pub/owen-bannister/35/697/b47" class="fa fa-linkedin solo"><span>Linkedin</span></a></li>
+						<li><a href="https://github.com/OwenBannister" class="fa fa-github solo"><span>Github</span></a></li>
+					</ul>
+				</section>
 
-		<hr style="border-top:1px solid #000" />
-		<h4><a href="https://bank-grapher.herokuapp.com">BankGrapher</a><small>(working title)</small> - RoR app</h4>
+				<!-- Copyright -->
+				<div class="copyright">
+					<ul class="menu">
+						<li>&copy; Owen Bannister. All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+					</ul>
+				</div>
 
-		<div class="col-xs-12 thumbnail">
-			<img src="assets/images/bankgrapher.jpg" alt="Owen">
+			</div>
+
 		</div>
-		<p>
-			I got sick of having to use spreadsheets to keep track of my finances so I decided to create a usefull webapp that I could upload my bank statements to and automatically have them graphed and stored so that they could be easily analysed.
-		</p>
-		<hr style="border-top:1px solid #000" />
-		<h4>Rekt - Unity3D platformer game</h4>
-		<div class="col-xs-12 thumbnail">
-			<img src="assets/images/comingsoon.jpg" alt="Owen">
-		</div>
-		<p>
-			What happens when a bunch of developers and designers finally finish their degree and get together...they try to make an awesome game!. At least thats the plan here, so watch this space.
-		</p>
 	</div>
 </div>
+
+</body>
+</html>
